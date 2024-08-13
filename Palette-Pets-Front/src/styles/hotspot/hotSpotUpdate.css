@@ -1,0 +1,81 @@
+#root {
+    height: 100%;
+    text-align: center;
+    background-color: #f1f3f5;
+}
+
+.update-title{
+    position: relative;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.update-simpleContent{
+    position: relative;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.update-content{
+    border: solid 2px #000;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    width: 90%;
+    height: 200px;
+}
+
+.update-address{
+    border-radius: 5px;
+    position: relative;
+    color: black;
+    background-color: white;
+    width: 90%;
+}
+
+.update-lat{
+    border-radius: 5px;
+    right: 30%;
+    position: relative;
+    color: black;
+    background-color: white;
+    width: 30%;
+}
+
+.update-lng{
+    border-radius: 5px;
+    right: 30%;
+    position: relative;
+    color: black;
+    background-color: white;
+    width: 30%;
+}
+
+.update-onSubmit{
+    background-color: #1976d2;
+    color: white;
+}
+
+.update-onReset{
+    margin-left: 10px;
+    background-color: #1976d2;
+    color: white;
+}
+
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #45a049;
+}
+
+.MuiCard-root {
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}

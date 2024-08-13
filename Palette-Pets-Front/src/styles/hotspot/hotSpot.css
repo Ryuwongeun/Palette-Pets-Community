@@ -1,0 +1,95 @@
+body {
+    height: auto !important;
+}
+
+/* 모바일 */
+@media only screen and (max-width: 600px) {
+    .write-button {
+        z-index: 99;
+        left: 87%;
+        bottom: 8%;
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        background-color: lightseagreen;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+    .truncated-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* 2줄로 제한 */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* 일반 웹 */
+@media only screen and (min-width: 600px) {
+    .write-button {
+        left: 69%;
+        position: fixed;
+        bottom: 8%;
+        width: 40px;
+        height: 40px;
+        background-color: lightseagreen;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+    .truncated-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* 4줄로 제한 */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+
+.css-o69gx8-MuiCardMedia-root {
+    border-radius: 5px;
+}
+
+.css-ag0gh4-MuiListItem-root {
+    padding-bottom: 7px;
+}
+
+.MuiDivider-root {
+    display: none;
+}
+
+/*이미지 사이즈*/
+.MuiCardMedia-root {
+    width: 50%;
+}
+
+/*제목 내용 별점*/
+.MuiListItemText-root {
+    position: relative;
+    margin-top: 5%;
+}
+
+.cardCapter{
+    display: flex;
+}
+
+.css-1t8w031-MuiPaper-root-MuiCard-root {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+#root {
+    background-color: #f1f3f5;
+}
